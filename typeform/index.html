@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="" method="post" class="swiper-container">
+        <div class="swiper-wrapper"></div>
+    </form>
+
+    <template id="slide-template">
+        <div class="swiper-slide">
+            <div class="form-container">
+                <fieldset>
+                    <legend>{title}</legend>
+                    {field}
+                </fieldset>
+                <button type="button" class="next-button">Okay</button>
+            </div>
+        </div>
+    </template>
+
+    <div class="loader">
+        <div class="inner">
+            <div class="lds-spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Please enter your folder and lastname</legend>
+                <label class="upload-file">
+                    <input type="file" required>
+                    <span class="text" data-invalid="Click for choose the folder"
+                        data-valid="Choosed the folder successfully"></span>
+                </label>
+            </fieldset>
+            <button type="button" class="next-button">Okay</button>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Please enter your firstname and lastname</legend>
+                <label class="radio">
+                    <input type="radio" required name="gender" value="1">
+                    <span class="text">
+                        <span class="key">A</span>
+                        Man
+                    </span>
+                </label>
+                <label class="radio">
+                    <input type="radio" required name="gender" value="2">
+                    <span class="text">
+                        <span class="key">B</span>
+                        Woman
+                    </span>
+                </label>
+            </fieldset>
+            <button type="button" class="next-button">Okay</button>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Please enter your firstname and lastname</legend>
+                <select name="" required>
+                    <option value="">Choose</option>
+                    <option value="p1">JavaScript</option>
+                    <option value="p2">React</option>
+                    <option value="p3">NodeJS</option>
+                </select>
+            </fieldset>
+            <button type="button" class="next-button">Okay</button>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Please enter your firstname and lastname</legend>
+                <input type="text" required placeholder="Your answer right here..">
+            </fieldset>
+            <button type="button" class="next-button">Okay</button>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Please enter your firstname and lastname</legend>
+                <textarea required name="" id="" cols="30" rows="5" placeholder="Your answer right here.."></textarea>
+            </fieldset>
+            <button type="button" class="next-button">Okay</button>
+        </div>
+    </div> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
